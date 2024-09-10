@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Log in</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" crossorigin href="assets/index-DUThPui-.css">
+  </head>
+  <body>
+    <!-- main is starting from here -->
+
+    <main
+      class="w-full h-auto lg:h-screen bg-mobGradient flex justify-center items-center sm:bg-lgscreen"
+    >
+      <!-- Content container starts -->
+      <div
+        class="w-full min-h-screen lg:w-[1010px] sm:min-h-min sm:box-border flex flex-col lg:flex-row justify-between sm:justify-center items-center pt-[10px] pb-[20px] sm:pb-36 px-[15px] lg:gap-x-8 lg:p-0"
+      >
+        <!-- first container starts -->
+        <div
+          class="flex flex-col justify-start items-center sm:w-[60%] lg:w-[548px] lg:self-stretch grow"
+        >
+          <!-- Language container starts -->
+          <div class="p-1 w-full self-start sm:hidden">
+            <p class="font-poppins text-center text-[13px] text-[#465a69]">
+              English (UK)
+            </p>
+          </div>
+          <!-- Language container ends -->
+
+          <!-- Logo container starts -->
+          <div
+            class="w-full flex flex-col justify-center lg:justify-start items-center lg:items-start lg:pt-8"
+          >
+            <!-- Logo for mobile -->
+            <img
+              src="assets/logo-DDvZD0sE.png"
+              alt="logo"
+              class="w-[60px] h-[60px] my-[100px] block sm:hidden"
+            />
+            <!-- Logo for Tablets and Computers -->
+            <img
+              src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='1090'%20height='360'%20fill='none'%20viewBox='0%200%201090%20360'%3e%3cpath%20fill='%230866FF'%20d='M881.583%20257.897h29.48v-47.696l41.137%2047.696h36.072l-47.89-54.969%2040.909-47.663h-32.825l-37.403%2043.93v-96.982l-29.48%203.864v151.82Zm-67.988-105.261c-32.728%200-55.455%2022.013-55.455%2053.929s22.727%2053.929%2055.455%2053.929c32.727%200%2055.455-22.013%2055.455-53.929s-22.728-53.929-55.455-53.929Zm0%2082.728c-15.163%200-25.552-11.721-25.552-28.799s10.389-28.799%2025.552-28.799c15.162%200%2025.552%2011.721%2025.552%2028.799s-10.39%2028.799-25.552%2028.799Zm-119.807-82.728c-32.727%200-55.455%2022.013-55.455%2053.929s22.728%2053.929%2055.455%2053.929c32.728%200%2055.455-22.013%2055.455-53.929s-22.727-53.929-55.455-53.929Zm0%2082.728c-15.162%200-25.552-11.721-25.552-28.799s10.39-28.799%2025.552-28.799c15.163%200%2025.552%2011.721%2025.552%2028.799s-10.389%2028.799-25.552%2028.799Zm-112.826-82.728c-13.636%200-24.935%205.357-32.013%2015.162v-65.585l-29.513%203.831v151.82h26.169l.519-15.844c6.981%2011.818%2019.481%2018.474%2034.838%2018.474%2027.988%200%2048.475-22.728%2048.475-53.929%200-31.202-20.39-53.929-48.475-53.929Zm-6.98%2082.728c-15.163%200-25.552-11.721-25.552-28.799s10.389-28.799%2025.552-28.799c15.162%200%2025.552%2011.721%2025.552%2028.799s-10.39%2028.799-25.552%2028.799Zm-113.638%201.331c-15.649%200-26.883-7.273-30.714-19.805h72.63c.715-3.831%201.202-8.377%201.202-11.429%200-33.02-18.475-52.825-49.514-52.825-31.331%200-53.02%2022.013-53.02%2053.929%200%2032.338%2022.728%2053.929%2056.462%2053.929%2017.467%200%2034.448-5.844%2045.065-15.552l-10.617-18.701c-10.292%207.11-20.39%2010.454-31.494%2010.454Zm-6.591-61.137c13.637%200%2022.338%208.279%2022.338%2021.104v.098h-47.078c2.825-13.604%2011.623-21.202%2024.74-21.202Zm-98.994%2084.968c15.26%200%2030.195-5.844%2040.714-15.974l-11.526-19.383c-8.182%206.364-17.467%209.805-26.266%209.805-16.364%200-27.273-11.429-27.273-28.377s10.909-28.377%2027.273-28.377c8.084%200%2016.883%202.922%2024.026%208.085l11.721-19.806c-9.481-8.571-24.156-13.831-38.702-13.831-32.013%200-54.643%2022.338-54.643%2053.929.032%2031.494%2022.662%2053.929%2054.676%2053.929Zm-93.735-105.261-.519%2015.975c-6.981-11.916-19.481-18.572-34.838-18.572-28.085%200-48.475%2022.728-48.475%2053.929%200%2031.202%2020.52%2053.929%2048.475%2053.929%2015.357%200%2027.889-6.656%2034.838-18.474l.519%2015.844h26.169V155.265h-26.169Zm-28.377%2080.099c-15.162%200-25.552-11.721-25.552-28.799s10.39-28.799%2025.552-28.799c15.163%200%2025.552%2011.721%2025.552%2028.799s-10.422%2028.799-25.552%2028.799Zm-57.663-79.906h-26.526v-8.767c0-13.117%205.13-18.149%2018.442-18.149%204.123%200%207.467.097%209.383.292v-22.5c-3.637-1.007-12.5-2.013-17.63-2.013-27.111%200-39.611%2012.792-39.611%2040.422v10.682h-16.753v24.806h16.753v77.631h29.448v-77.599h21.949l4.545-24.805Z'/%3e%3c/svg%3e"
+              alt="Logo"
+              class="hidden sm:inline-block w-80"
+            />
+            <!-- Text on Tablets and Computers -->
+            <p
+              class="px-5 lg:px-0 lg:pl-[30px] hidden sm:block text-2xl font-poppins font-normal leading-tight text-[#1c1e21] lg:text-[26px]"
+            >
+              Facebook helps you connect and share with the people in your life
+            </p>
+          </div>
+          <!-- Logo container ends -->
+        </div>
+
+        <!-- first container ends -->
+        <!-- Seconds container starts -->
+
+        <div
+          class="grow flex flex-col justify-start items-center w-full sm:flex-none sm:w-[60%] lg:w-[396px]"
+        >
+          <div
+            class="flex flex-col justify-center items-center gap-[12px] w-full sm:bg-white sm:mt-10 lg:mt-0 sm:pt-4 sm:px-4 sm:pb-6 sm:rounded-lg sm:shadow-form"
+          >
+            <!-- Email field starts -->
+            <div class="relative w-full">
+              <input
+                type="email"
+                id="email"
+                class="h-[52px] block px-4 py-[10px] w-full text-sm sm:text-[17px] font-poppins text-gray-900 bg-white rounded-xl sm:rounded-md border border-[#e1e9f1] appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border focus:border-[#8694a3] sm:focus:border-[#67a1ff] lg:focus:border-[#0866ff] lg:focus:shadow-input peer placeholder:opacity-0 sm:placeholder:opacity-100"
+                placeholder="Email address or phone number"
+              />
+              <label
+                for="email"
+                class="absolute text-base font-poppins text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#4c5a69] peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1 peer-focus:text-base sm:hidden"
+                >Mobile number or email address</label
+              >
+            </div>
+
+            <!-- Email field ends -->
+            <!-- Password field starts -->
+
+            <div class="relative w-full">
+              <input
+                type="password"
+                id="password"
+                class="h-[52px] block px-4 py-[10px] w-full text-sm sm:text-[17px] font-poppins text-gray-900 bg-white rounded-xl sm:rounded-md border border-[#e1e9f1] appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border focus:border-[#8694a3] sm:focus:border-[#67a1ff] lg:focus:border-[#0866ff] lg:focus:shadow-input peer placeholder:opacity-0 sm:placeholder:opacity-100"
+                placeholder="Password"
+              />
+              <label
+                for="password"
+                class="absolute text-base font-poppins text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#4c5a69] peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1 peer-focus:text-base sm:hidden"
+                >Password</label
+              >
+            </div>
+
+            <!-- Password field ends -->
+            <!-- Log in button starts -->
+
+            <button
+              class="bg-[#0064E0] w-full py-[10px] text-base text-white font-poppins rounded-full sm:rounded-md sm:font-semibold sm:text-xl sm:h-12 sm:bg-[#0866ff] lg:mt-[6px]"
+            >
+              Log in
+            </button>
+
+            <!-- Log in Button ends -->
+            <!-- Forgotten password starts -->
+
+            <div
+              class="w-full text-center font-poppins text-[15px] pt-1 text-[#1c2b33] sm:text-[#0866ff] sm:text-[14px] sm:leading-snug sm:font-medium"
+            >
+              Forgotten Password
+            </div>
+            <hr
+              class="hidden sm:inline-block w-11/12 border-0 border-t-2 border-t-[#eeeff1] my-2"
+            />
+            <button
+              class="hidden sm:block bg-[#42b72a] w-auto h-12 py-[10px] px-4 mt-[6px] text-xl lg:text-[17px] font-semibold text-white font-poppins rounded-md box-border"
+            >
+              Create new account
+            </button>
+          </div>
+          <p
+            class="hidden sm:block w-full text-center mt-7 font-poppins text-sm leading-snug"
+          >
+            <b>Create a Page</b> for a celeberity, brand or a business
+          </p>
+        </div>
+
+        <!-- Second container ends -->
+        <!-- Third container starts -->
+
+        <div
+          class="flex flex-col justify-end items-center gap-[20px] w-full sm:hidden"
+        >
+          <button
+            class="bg-transparent w-full py-[10px] text-base text-[#0064E0] font-poppins rounded-full box-border border-2 border-[#75adeb]"
+          >
+            Create new account
+          </button>
+
+          <img src="assets/Meta%20Logo-CYW32nR0.png" alt="Meta" class="w-[60px]" />
+
+          <ul
+            class="w-full flex flex-row justify-center items-center gap-2 font-sans text-[10px] text-[#63788a]"
+          >
+            <li>About</li>
+            <li>Help</li>
+            <li>More</li>
+          </ul>
+        </div>
+
+        <!-- Third container ends -->
+      </div>
+      <!-- content container ends -->
+    </main>
+
+    <!-- main is ending here -->
+
+    <footer
+      class="hidden sm:block bg-white py-5 px-10 lg:px-5 lg:flex lg:justify-center"
+    >
+      <div
+        class="w-ful lg:w-[1010px] pl-[30px] text-[#8a8d91] text-xs font-sans"
+      >
+        <ul
+          class="flex flex-row justify-start gap-x-[10px] gap-y-2 flex-wrap items-center"
+        >
+          <li>English (UK)</li>
+          <li>اردو</li>
+          <li>پښتو</li>
+          <li>العربية</li>
+          <li>हिंदी</li>
+          <li>বাংলা</li>
+          <li>ਪੰਜਾਬੀ</li>
+          <li>فارسی</li>
+          <li>ગુજરાતી</li>
+          <li>Deutsch</li>
+          <li>Español</li>
+          <li
+            class="border border-solid border-[#dee1e4] bg-[#f5f6f7] px-2 text-xs"
+          >
+            <i class="fa-solid fa-plus text-[#666d7c]"></i>
+          </li>
+        </ul>
+        <hr class="border-0 border-t border-[#eeeff0] w-full my-2" />
+        <ul
+          class="flex flex-row justify-start items-start flex-wrap gap-x-5 gap-y-2"
+        >
+          <li>Sign Up</li>
+          <li>Log in</li>
+          <li>Messenger</li>
+          <li>Facebook Lite</li>
+          <li>Video</li>
+          <li>Places</li>
+          <li>Games</li>
+          <li>Marketplace</li>
+          <li>Meta Pay</li>
+          <li>Meta Store</li>
+          <li>Meta Quest</li>
+          <li>Imagine with Meta AI</li>
+          <li>Instagram</li>
+          <li>Threads</li>
+          <li>Fundraisers</li>
+          <li>Services</li>
+          <li>Voting Information Centre</li>
+          <li>Privacy Policy</li>
+          <li>Privacy Centre</li>
+          <li>Groups</li>
+          <li>About</li>
+          <li>Create ad</li>
+          <li>Create Page</li>
+          <li>Developers</li>
+          <li>Careers</li>
+          <li>Cookies</li>
+          <li>Adchoices</li>
+          <li>Terms</li>
+          <li>Help</li>
+          <li>Contact uploading and non-users</li>
+        </ul>
+        <p class="text-[11px] text-[#737373] font-sans mt-5">
+          Meta &copy; 2024
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
